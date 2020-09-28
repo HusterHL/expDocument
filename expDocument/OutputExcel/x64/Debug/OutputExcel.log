@@ -1,0 +1,6 @@
+﻿  Reading Qt configuration (D:\Qt\Qt5.14.0\5.14.0\msvc2017_64\bin\qmake.exe)
+  main.cpp
+  OutputExcel.cpp
+  qrc_OutputExcel.cpp
+  moc_OutputExcel.cpp
+  OutputExcel.vcxproj -> E:\Project\Cplus\CreatExcel\OutputExcel5\x64\Debug\OutputExcel.exe

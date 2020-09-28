@@ -1,0 +1,14 @@
+﻿  Reading Qt configuration (D:\Qt\Qt5.14.0\5.14.0\msvc2017_64\bin\qmake.exe)
+  main.cpp
+  OutputExcel.cpp
+  qrc_OutputExcel.cpp
+  moc_OutputExcel.cpp
+OutputExcel.obj : error LNK2019: 无法解析的外部符号 "public: class QVariant __cdecl QAxBase::dynamicCall(char const *,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &)" (?dynamicCall@QAxBase@@QEAA?AVQVariant@@PEBDAEBV2@1111111@Z)，该符号在函数 "public: void __cdecl OutputExcel::CreatExcel(void)" (?CreatExcel@OutputExcel@@QEAAXXZ) 中被引用
+OutputExcel.obj : error LNK2019: 无法解析的外部符号 "public: class QVariant __cdecl QAxBase::dynamicCall(char const *,class QList<class QVariant> &)" (?dynamicCall@QAxBase@@QEAA?AVQVariant@@PEBDAEAV?$QList@VQVariant@@@@@Z)，该符号在函数 "public: void __cdecl OutputExcel::insertPic(class QString)" (?insertPic@OutputExcel@@QEAAXVQString@@@Z) 中被引用
+OutputExcel.obj : error LNK2019: 无法解析的外部符号 "public: class QAxObject * __cdecl QAxBase::querySubObject(char const *,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &,class QVariant const &)" (?querySubObject@QAxBase@@QEAAPEAVQAxObject@@PEBDAEBVQVariant@@1111111@Z)，该符号在函数 "public: void __cdecl OutputExcel::CreatExcel(void)" (?CreatExcel@OutputExcel@@QEAAXXZ) 中被引用
+OutputExcel.obj : error LNK2019: 无法解析的外部符号 "public: class QAxObject * __cdecl QAxBase::querySubObject(char const *,class QList<class QVariant> &)" (?querySubObject@QAxBase@@QEAAPEAVQAxObject@@PEBDAEAV?$QList@VQVariant@@@@@Z)，该符号在函数 "public: class QAxObject * __cdecl OutputExcel::insertTable(int,int,int,int)" (?insertTable@OutputExcel@@QEAAPEAVQAxObject@@HHHH@Z) 中被引用
+OutputExcel.obj : error LNK2019: 无法解析的外部符号 "public: class QVariant __cdecl QAxBase::asVariant(void)const " (?asVariant@QAxBase@@QEBA?AVQVariant@@XZ)，该符号在函数 "public: void __cdecl OutputExcel::MergeCells(class QAxObject *,int,int,int,int)" (?MergeCells@OutputExcel@@QEAAXPEAVQAxObject@@HHHH@Z) 中被引用
+OutputExcel.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl QAxBase::setControl(class QString const &)" (?setControl@QAxBase@@QEAA_NAEBVQString@@@Z)，该符号在函数 "public: bool __cdecl OutputExcel::open(bool)" (?open@OutputExcel@@QEAA_N_N@Z) 中被引用
+OutputExcel.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl QAxWidget::QAxWidget(class QWidget *,class QFlags<enum Qt::WindowType>)" (??0QAxWidget@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z)，该符号在函数 "public: bool __cdecl OutputExcel::open(bool)" (?open@OutputExcel@@QEAA_N_N@Z) 中被引用
+OutputExcel.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl QAxObject::QAxObject(class QObject *)" (??0QAxObject@@QEAA@PEAVQObject@@@Z)，该符号在函数 "public: void __cdecl OutputExcel::CreatExcel(void)" (?CreatExcel@OutputExcel@@QEAAXXZ) 中被引用
+E:\Project\Cplus\CreatExcel\OutputExcel4\x64\Release\\OutputExcel.exe : fatal error LNK1120: 8 个无法解析的外部命令
